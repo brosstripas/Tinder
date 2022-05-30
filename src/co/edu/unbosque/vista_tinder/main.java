@@ -24,7 +24,7 @@ public class main {
 		p1.setTitle("Tinder");
 		
 		JLabel texto1 = new JLabel("•°o.O(..TINDER..)O.o°• ");
-		texto1.setBounds(120, -50, 250, 250);
+		texto1.setBounds(150, -50, 250, 250);
 		p1.add(texto1);
 		
 		JButton boton1 = new JButton("INICIAR SECION");
@@ -170,10 +170,14 @@ public class main {
 							pM.setVisible(true);
 							pM.getContentPane().setBackground(Color.PINK);
 							
-						
-						 JLabel textop2 = new JLabel("REGISTRARSE");
-							textop2.setBounds(140, -100, 250, 250);
-							pM.add(textop2);
+							JLabel textop = new JLabel("PERFIL...");
+								textop.setBounds(140, -100, 250, 250);
+								pM.add(textop);
+								
+						    JLabel imagen = new JLabel(new ImageIcon("200x200 mujer.png"));
+								imagen.setBounds(50, 50, 200, 200);
+								pM.add(imagen);
+								
 						 }}
 				});
 				
